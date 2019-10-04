@@ -1,12 +1,12 @@
 .MainInfo {
     height: 100vh;
-    background-color: lightcoral;
+    background-color: #28a745;
     display: flex;
     justify-content: center;
+    color: white;
 }
 .container {
     width: 80%;
-    border: 1px solid;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,10 +16,10 @@
     flex-direction: column;
 
 }
-.photo {
-    height: 400px;
-    width: 300px;
-    background-color: white;
+.avatar {
+    width: 500px;
+    height: 550px;
+    border-radius: 25px;
 }
 @media screen and (max-width: 800px){
     .container {
@@ -29,5 +29,11 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+    }
+}
+@media screen and (max-width: 640px){
+    .avatar {
+        width: 300px;
+        height: 350px;
     }
 }

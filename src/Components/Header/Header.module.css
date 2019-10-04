@@ -1,12 +1,11 @@
 .header {
     height: 70px;
-    background-color: deepskyblue;
+    background-color: white;
     display: flex;
     justify-content: center;
 
 }
 .container {
-    border: 1px solid;
     width: 80%;
     display: flex;
     justify-content: flex-end;
