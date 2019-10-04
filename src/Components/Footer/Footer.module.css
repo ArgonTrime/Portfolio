@@ -25,3 +25,17 @@
     height: 50px;
     background-color: white;
 }
+
+
+@media screen and (max-width: 1000px){
+    .contactImg {
+        width: 30px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 580px){
+    .contactImg {
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -3,25 +3,19 @@ import s from './Projects.module.css';
 
 const Projects = () => {
     return (
-        <div className={s.Projects}>
+        <div className={s.projects}>
             <div className={s.container}>
-                <div className={s.info}>
-                    <h1>Мои работы</h1>
-                </div>
-                <div className={s.project}>
+                <span>Мои работы</span>
+                <div className={s.myProjects}>
                     <div className={s.item}>
-                        <img className={s.itemImg}/>
-                        <div className={s.itemInfo}>
-                            <span>Название проекта</span>
-                            <span>Краткое описание</span>
-                        </div>
+                        <div className={s.itemImg}><button>Смотреть</button></div>
+                        <span>Название проекта</span>
+                        <span>Краткое описание</span>
                     </div>
                     <div className={s.item}>
-                        <img className={s.itemImg}/>
-                        <div className={s.itemInfo}>
-                            <span>Название проекта</span>
-                            <span>Краткое описание</span>
-                        </div>
+                        <div className={s.itemImg}><button>Смотреть</button></div>
+                        <span>Название проекта</span>
+                        <span>Краткое описание</span>
                     </div>
                 </div>
             </div>

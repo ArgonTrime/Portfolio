@@ -21,3 +21,13 @@
     width: 300px;
     background-color: white;
 }
+@media screen and (max-width: 800px){
+    .container {
+        width: 80%;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
