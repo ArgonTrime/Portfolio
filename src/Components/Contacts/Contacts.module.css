@@ -1,4 +1,44 @@
 .Contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-color: forestgreen;
+
+}
+
+.container {
+    border: 1px solid;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.form {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+.message {
+    width: 293px;
+    height: 230px;
+    resize: none;
+
+}
+.form input {
+    width: 295px;
 }
