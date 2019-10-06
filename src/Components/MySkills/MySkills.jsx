@@ -7,21 +7,25 @@ const MySkills = () => {
             <div className={s.container}>
                 <div className={s.info}>
                     <h1>Мои навыки</h1>
+                    <div className={s.line}/>
                 </div>
                 <div className={s.skills}>
                     <div className={s.skill}>
                         <img className={s.imgSkill}/>
-                        <h1>HTML</h1>
+                        <h1>HTML/CSS</h1>
+                        <div className={s.lineSmall}/>
                         <span>Описание</span>
                     </div>
                     <div className={s.skill}>
                         <img className={s.imgSkill}/>
-                        <h1>CSS</h1>
+                        <h1>JavaScript</h1>
+                        <div className={s.lineSmall}/>
                         <span>Описание</span>
                     </div>
                     <div className={s.skill}>
                         <img className={s.imgSkill}/>
-                        <h1>React</h1>
+                        <h1>React/Redux</h1>
+                        <div className={s.lineSmall}/>
                         <span>Описание</span>
                     </div>
 
