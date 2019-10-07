@@ -35,10 +35,19 @@
     width: 293px;
     height: 230px;
     resize: none;
+    background: #252527;
+    border: 1px solid #28a745;
+    padding-left: 10px;
+    color: white;
+
 
 }
 .form input {
     width: 295px;
+    background: #252527;
+    border: 1px solid #28a745;
+    padding-left: 10px;
+    color: white;
 }
 
 .line {

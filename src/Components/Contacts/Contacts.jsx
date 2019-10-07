@@ -10,9 +10,9 @@ const Contacts = (props) => {
                 <div className={s.contactForm}>
                     <TitleBlock title={props.contacts}/>
                     <form className={s.form}>
-                            <input/>
-                            <input/>
-                            <textarea className={s.message}/>
+                            <input placeholder='Имя' type='text'/>
+                            <input placeholder='email' type='email'/>
+                            <textarea className={s.message} placeholder='Сообщение'/>
                         </form>
                     <Button btn={props.btn.s}/>
                 </div>
