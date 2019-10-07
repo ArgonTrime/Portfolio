@@ -1,34 +1,37 @@
 .projects {
     height: 100vh;
-    background-color: peru;
+    background-color: #1f1f20;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container {
-    border: 1px solid;
     height: 80%;
     width: 80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
+.line {
+     height: 1px;
+     width: 100px;
+     background-color: #28a745;
+ }
+
 .myProjects{
     width: 100%;
     height: 80%;
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
 }
 
 .item{
     width: 40%;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .itemImg{
     display: flex;
@@ -42,18 +45,17 @@
     .myProjects{
         width: 100%;
         height: 80%;
-        border: 1px solid;
         display: flex;
         flex-direction: column;
     }
     .item {
         width: 100%;
         height: 60%;
-        border: 1px solid;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 20px;
 
     }
     .itemImg {

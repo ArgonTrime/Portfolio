@@ -3,12 +3,11 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: forestgreen;
+    background-color: #1f1f20;
 
 }
 
 .container {
-    border: 1px solid;
     width: 80%;
     height: 50%;
     display: flex;
@@ -25,7 +24,6 @@
 }
 
 .form {
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -42,6 +40,13 @@
 .form input {
     width: 295px;
 }
+
+.line {
+    height: 1px;
+    width: 100px;
+    background-color: #28a745;
+}
+
 @media screen and (max-width: 380px){
     .form {
         width: 100%;

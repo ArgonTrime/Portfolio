@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className={s.Footer}>
             <div className={s.container}>
-                <span>Игорь Тримайлов</span>
+                <h2>Игорь Тримайлов</h2>
                 <div className={s.contact}>
                     <img className={s.contactImg} />
                     <img className={s.contactImg} />

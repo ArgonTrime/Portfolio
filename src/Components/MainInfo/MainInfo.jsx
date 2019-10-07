@@ -11,7 +11,7 @@ const MainInfo = () => {
                     <span>Меня зовут <span>Игорь Тримайлов</span></span>
                     <h1>Я front-end разработчик</h1>
                 </div>
-                <div className={s.photo}>
+                <div>
                     <img className={s.avatar} src={avatar} alt='avatar'/>
                 </div>
             </div>

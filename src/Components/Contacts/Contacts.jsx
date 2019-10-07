@@ -1,13 +1,14 @@
 import React from 'react';
 import s from './Contacts.module.css';
+import TitleBlock from "../TitleBlock/TitleBlock";
 
-const Contacts = () => {
+const Contacts = (props) => {
     return (
         <div className={s.Contacts}>
             <div className={s.container}>
                 <div className={s.contactForm}>
-                    <span>Контакты</span>
-                        <form className={s.form}>
+                    <TitleBlock title={props.contacts}/>
+                    <form className={s.form}>
                             <input/>
                             <input/>
                             <textarea className={s.message}/>

@@ -18,16 +18,6 @@
     align-items: center;
     flex-direction: column;
 }
-.line {
-    height: 1px;
-    width: 100px;
-    background-color: #28a745;
-}
-.lineSmall {
-    height: 1px;
-    width: 50px;
-    background-color: #28a745;
-}
 
 .skills {
     display: flex;
@@ -41,6 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .imgSkill {
     height: 100px;
@@ -49,7 +40,6 @@
 }
 @media screen and (max-width: 800px){
     .skills {
-        border: 1px solid;
         display: flex;
         justify-content: space-around;
         flex-direction: column;
@@ -59,5 +49,10 @@
     }
     .skill {
         width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
     }
+}
+@media screen and (max-width: 500px){
+    .imgSkill {height: 0; width: 0;}
 }
