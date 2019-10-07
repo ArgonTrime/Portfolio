@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Slogan.module.css';
 import TitleBlock from "../TitleBlock/TitleBlock";
+import Button from "../Button/Button";
 
 const Slogan = (props) => {
     return (
@@ -10,7 +11,7 @@ const Slogan = (props) => {
                     {/*<h2>Рассматриваю варианты удаленнной работы</h2>*/}
                     {/*<div className={s.line}/>*/}
                     <TitleBlock title={props.work}/>
-                    <button>Нанять меня</button>
+                    <Button btn={props.btn.w}/>
                 </div>
             </div>
         </div>

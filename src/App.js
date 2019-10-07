@@ -18,7 +18,12 @@ class App extends React.Component {
         },
         project: 'Мои работы',
         work: 'Рассматриваю варианты удаленнной работы',
-        contacts: 'Контакты'
+        contacts: 'Контакты',
+        button: {
+            s: 'Отправить',
+            v: 'Смотреть',
+            w: 'Нанять меня'
+        }
     };
 
     render() {
@@ -28,9 +33,9 @@ class App extends React.Component {
                     <Header/>
                     <MainInfo/>
                     <MySkills skills={this.titleBlock.skills}/>
-                    <Projects project={this.titleBlock.project}/>
-                    <Slogan work={this.titleBlock.work}/>
-                    <Contacts contacts={this.titleBlock.contacts}/>
+                    <Projects project={this.titleBlock.project} btn={this.titleBlock.button}/>
+                    <Slogan work={this.titleBlock.work} btn={this.titleBlock.button}/>
+                    <Contacts contacts={this.titleBlock.contacts} btn={this.titleBlock.button}/>
                     <Footer/>
                 </div>
             </div>

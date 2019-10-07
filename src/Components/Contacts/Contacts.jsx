@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Contacts.module.css';
 import TitleBlock from "../TitleBlock/TitleBlock";
+import Button from "../Button/Button";
 
 const Contacts = (props) => {
     return (
@@ -13,7 +14,7 @@ const Contacts = (props) => {
                             <input/>
                             <textarea className={s.message}/>
                         </form>
-                    <button>Отправить</button>
+                    <Button btn={props.btn.s}/>
                 </div>
             </div>
         </div>
