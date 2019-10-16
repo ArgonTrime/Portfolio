@@ -36,7 +36,6 @@
 .imgSkill {
     height: 100px;
     width: 100px;
-    background-color: white;
 }
 @media screen and (max-width: 800px){
     .skills {
