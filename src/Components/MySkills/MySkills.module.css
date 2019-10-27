@@ -1,4 +1,5 @@
 .MySkills {
+    position: relative;
     height: 100vh;
     background-color: #252527;
     display: flex;

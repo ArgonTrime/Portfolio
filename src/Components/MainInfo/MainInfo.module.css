@@ -39,6 +39,7 @@
 /*}*/
 
 .avatar {
+    position: relative;
     width: 500px;
     height: 550px;
     border-radius: 25px;

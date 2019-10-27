@@ -1,6 +1,13 @@
 .App {
 
 }
+.particles {
+    position: fixed !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
 
 /*green #28a745*/
 /*gray #6c757d*/

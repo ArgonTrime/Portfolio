@@ -1,4 +1,5 @@
 .Footer {
+    position: relative;
     height: 300px;
     background-color: white;
     display: flex;

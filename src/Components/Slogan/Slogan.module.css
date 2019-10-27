@@ -1,4 +1,5 @@
 .Slogan {
+    position: relative;
     height: 200px;
     background-color: #252527;
     display: flex;
