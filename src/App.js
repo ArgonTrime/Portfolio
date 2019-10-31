@@ -35,6 +35,11 @@ class App extends React.Component {
             v: 'Смотреть',
         }
     };
+    description = {
+        htmlCss: 'Создание структуры и оформления страницы и компонент.',
+        javaScript: 'Написание логики компонент.',
+        reactRedux: 'Создание компонент, работа с Redux store и другими npm библиотеками.'
+    };
 
     render() {
         return (
@@ -44,7 +49,8 @@ class App extends React.Component {
                                params={this.particlesOpt}/>
                     <Header/>
                     <MainInfo/>
-                    <MySkills skills={this.titleBlock.skills}/>
+                    <MySkills skills={this.titleBlock.skills}
+                              description={this.description}/>
                     <Projects project={this.titleBlock.project}
                               btn={this.titleBlock.button}/>
                     <Contacts contacts={this.titleBlock.contacts}
