@@ -4,7 +4,7 @@ import avatar from '../../images/avatar.jpg';
 
 const MainInfo = () => {
     return (
-        <div className={s.MainInfo}>
+        <div className={s.MainInfo} id='main'>
             <div className={s.container}>
                 <div className={s.info}>
                     <span>Привет</span>

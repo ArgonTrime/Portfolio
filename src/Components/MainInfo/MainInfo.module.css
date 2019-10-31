@@ -43,6 +43,11 @@
     width: 500px;
     height: 550px;
     border-radius: 25px;
+
+}
+.avatar:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.5s;
 }
 
 @media screen and (max-width: 1050px){

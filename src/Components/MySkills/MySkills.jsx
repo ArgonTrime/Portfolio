@@ -9,7 +9,7 @@ import {Fade} from "react-reveal";
 
 const MySkills = (props) => {
     return (
-        <div className={s.MySkills}>
+        <div className={s.MySkills} id='skills'>
             <Fade bottom>
                 <div className={s.container}>
                     <TitleBlock title={props.skills.title}/>

@@ -6,7 +6,7 @@ import {Fade} from "react-reveal";
 
 const Contacts = (props) => {
     return (
-        <div className={s.Contacts}>
+        <div className={s.Contacts} id='contacts'>
             <Fade bottom>
                 <div className={s.container}>
                     <div className={s.contactForm}>
